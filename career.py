@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import linear_kernel
 from PIL import Image
 
 # Load and Explore Dataset
-data = pd.read_csv(r"C:\Users\LENOVO\Desktop\project\dataset.csv")
+data = pd.read_csv("C:\\Users\\LENOVO\\Desktop\\project\\Career recommendation\\dataset.csv")
 
 # Combine Interests and Skills
 data['combined_features'] = data['Interest'] + ' ' + data['Skills']
